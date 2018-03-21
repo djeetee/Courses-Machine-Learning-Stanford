@@ -1,0 +1,1 @@
+data = load('ex1data1.txt');X = data(:, 1); y = data(:, 2);m = length(y);X = [ones(m, 1), X];theta = zeros(2, 1)
